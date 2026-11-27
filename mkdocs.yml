@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: Docs as Code Sandbox
+theme:
+  name: material
+  language: ru
+
+nav:
+  - Главная: index.md
+  - Требования: requirements.md
+
+markdown_extensions:
+  - tables
+  - plantuml_markdown:
+      server: https://www.plantuml.com/plantuml
+      format: svg
